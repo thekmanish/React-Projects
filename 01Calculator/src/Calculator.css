@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.calculator{
+    position: relative;
+    
+    margin-left: 35%; 
+    margin-right: 20%; 
+    width: 33%;
+    height: 730px;
+    background-color: aqua;
+    border-radius: 3%;
+}
+
+.screen{
+    overflow: auto;
+    position: absolute;
+    background-color: white;
+    top: 2%;
+    width: 100%;
+    height: 20%;
+    border-radius: 7%;
+    z-index: 999;
+}
+
+h1{
+    color: black;
+}
+.btnclass{
+    position: absolute;
+    background-color: white;
+    bottom: 5%;
+    height: 25%;
+    width: 100%;
+    background-color: black;
+
+}
+
+button{
+    font-weight: bold;
+    background-color: #ffffff;
+    width: 25%;
+    height: 50px;
+}
+
+button:hover{
+    background-color: aqua;
+}

@@ -1,12 +1,13 @@
 
+import Calculator from "./Calculator";
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <>
-
-    </>
+    <div style = {{backgroundColor : "grey"}}>
+        <Calculator />
+    </div>
   )
 }
 
